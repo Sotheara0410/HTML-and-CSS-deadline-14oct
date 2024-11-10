@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(154, 161, 167);
+}
+.allread{
+  
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 50%;
+   
+}
+
+.readone,.readtwo,.readthree{
+    border: 1px black solid;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 20px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 10px;  
+
+}
+button{
+    border-radius: 30px;
+    border: none;   
+    padding: 10px; 
+
+}
+.readone button{
+    background-color: green;
+}
+.readtwo button{
+    background-color: yellow;
+}
+.readthree button{
+    background-color: purple;
+}
+.readmore :hover{
+    background-color: darkgray;
+}

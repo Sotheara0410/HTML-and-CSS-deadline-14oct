@@ -1,0 +1,97 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.container{
+  width: 300px;
+  background: #827b92;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.more-vert-icon{
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  font-size: 18px;
+}
+.profile-header{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.verified-badge{
+  background: #fff;
+  position: absolute;
+  font-size: 0.8em;
+  border-radius: 50%;
+  right: 98px;
+  bottom: 5px;
+  padding: 5px 5px;
+}
+.pf-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid red;
+}
+.name{
+  font-size: 1.5em;
+  color: #1b1750;
+}
+.role{
+  font-size: 1em;
+  color: #4a4850;
+  margin-bottom: 20px;
+}
+.follower{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+}
+.fol{
+  text-align: center;
+}
+.fol h3{
+  font-size: 1.2em;
+  color: #383737;
+  margin: 0;
+}
+.fol p{
+  font-size: 1em;
+  color: #242222;
+}
+.textt{
+  font-size: 0.9em;
+  color: #353434;
+  margin-bottom: 20px;
+}
+.social-media{
+  display: felx;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.social-icon{
+  text-decoration: none;
+  font-size: 1.7em;
+  color: #555;
+}
+.botton{
+  background-color: #441eef;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+.botton:hover{
+  background: #210d35;
+}
